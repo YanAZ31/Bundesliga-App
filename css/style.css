@@ -1,0 +1,76 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1080px;
+ }
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+header ul{
+    
+        display: flex; 
+        list-style: none
+    
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header img{
+    width: 100px;
+}
+
+main img{
+    width: 800px;
+   
+}
+main{
+    text-align: center;
+}
+
+.btn{
+    padding: 25px;
+    display: inline-block;
+    color: red;
+}
+
+.bundesliga{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.bundesliga img{
+    width: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li{
+    list-style: none
+}
+footer ul li:first-child{
+    color: aqua;
+    
+  
+}
+
+.chevron{
+    clip-path: polygon(100% 0%, 88.5% 55%, 100% 100%, 0% 50%);
+}
