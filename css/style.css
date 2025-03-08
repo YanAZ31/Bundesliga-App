@@ -1,0 +1,154 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+
+}
+
+body{
+    background: #191E24;
+    color: #FFFFFF;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1080px;
+ }
+header{
+    background-color: #DA062E;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+
+
+}
+
+.statistics{
+    text-align: center;
+}
+
+header ul{
+    
+        display: flex; 
+        list-style: none
+    
+}
+
+.bundesliga-app .container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bundesliga-app{
+    background-color: #DA062E;
+}
+.bundesliga-app .img-mockup{
+   width: 600px;
+  
+}
+
+.bundesliga-app .app-store{
+    /* width:  2000px; */
+}
+
+header p{
+    width: 530px;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header img{
+    width: 41px;
+    height: 41px;
+}
+
+main img{
+    width: 800px;
+   
+}
+main{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    color:#FFFFFF ;
+    background-image: url('../img/Hero Image.png');
+    background-size: cover;
+    background-position: center            ;
+
+}
+
+.btn{
+    padding: 10px;
+    width: 185px;
+    display: inline-block;
+    background-color: #DA062E;
+    color:#191E24 ;
+
+}
+
+.bundesliga{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.bundesliga img{
+    width: 50%;
+}
+
+.btn img{
+    width: 8px;
+}
+
+footer{
+   background-color: #DA062E;
+   align-items: center;
+}
+
+
+.chevron{
+    clip-path: polygon(100% 0%, 88.5% 55%, 100% 100%, 0% 50%);
+}
+
+.nfl{
+    width: 98vw;
+    height: 300px;
+    background-image: url('../img/NFL.png');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+footer .container{
+    align-items: center;
+}
+
+.qr-code{
+    text-align: center;
+    padding: 20px;
+
+}
+
+.sponsors{
+    padding: 10px;
+    display: grid;
+    /* text-align: center; */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px ;
+}
+.brand{
+    text-align: center;
+}
+
+.sponsors img{
+    width:150px ;
+}
