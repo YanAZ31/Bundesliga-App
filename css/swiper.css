@@ -1,0 +1,41 @@
+.swiper {
+    width: 85vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    /* display: flex;
+    flex-direction: column; */
+  }
+
+  .swiper-wrapper img{
+
+    width: 79px;
+   
+
+  }
+
+  .swiper-wrapper{
+ 
+   
+  }
+
+  .swiper-slide{
+    display: flex;
+    gap:24px
+  
+  
+  
+}
+
+.team{
+    background-color: #212A35;
+    /* margin-left: 4px; */
+    align-items: center;
+    display: flex;
+    
+    
+    justify-content: center;
+    width: 135px;
+    height: 135px;
+}
+  

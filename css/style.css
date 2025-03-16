@@ -95,8 +95,8 @@ main{
 }
 
 .bundesliga{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     align-items: center;
     padding: 0 10px;
     margin-bottom: 20px;
@@ -151,4 +151,9 @@ footer .container{
 
 .sponsors img{
     width:150px ;
+}
+
+.bl-teams{
+    display: block;
+    /* flex-direction: column; */
 }
