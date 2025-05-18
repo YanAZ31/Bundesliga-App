@@ -1,6 +1,6 @@
 .swiper {
     width: 85vw;
-    height: 300px;
+    height: 150px;
     display: flex;
     justify-content: center;
     /* display: flex;
@@ -32,8 +32,6 @@
     /* margin-left: 4px; */
     align-items: center;
     display: flex;
-    
-    
     justify-content: center;
     width: 135px;
     height: 135px;

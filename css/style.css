@@ -29,6 +29,12 @@ header .container{
 
 .statistics{
     text-align: center;
+    padding: 20px;
+}
+
+.statistics img{
+    max-width:400px;
+    margin:20px;
 }
 
 header ul{
@@ -42,13 +48,14 @@ header ul{
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .bundesliga-app{
     background-color: #DA062E;
 }
 .bundesliga-app .img-mockup{
-   width: 600px;
+   /* width: 600px; */
   
 }
 
@@ -70,7 +77,7 @@ header img{
 }
 
 main img{
-    width: 800px;
+    /* width: 800px; */
    
 }
 main{
@@ -85,12 +92,19 @@ main{
 
 }
 
+main p{
+    max-width: 750px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
 .btn{
     padding: 10px;
     width: 185px;
     display: inline-block;
     background-color: #DA062E;
     color:#191E24 ;
+    text-decoration: none;
 
 }
 
@@ -99,7 +113,7 @@ main{
     /* justify-content: space-between; */
     align-items: center;
     padding: 0 10px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .bundesliga img{
@@ -121,10 +135,10 @@ footer{
 }
 
 .nfl{
-    width: 98vw;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     background-image: url('../img/NFL.png');
-    background-size: cover;
+    background-size:cover;
     background-position:center;
     background-repeat: no-repeat;
 }
@@ -150,10 +164,41 @@ footer .container{
 }
 
 .sponsors img{
-    width:150px ;
+    /* width:150px ; */
 }
 
 .bl-teams{
     display: block;
     /* flex-direction: column; */
+}
+
+.bl-teams .team img{
+    max-width: 100%;
+}
+
+.team:hover{
+    background: #502018;
+}
+
+#teams{ padding: 20px;}
+
+.bl-teams{
+    margin-top: 15px;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+.statistics h2{
+    padding-top: 40px;
+
+}
+
+.swiper-slide{
+    margin-right: 20px;
+}
+
+.statistics{
+    justify-content: center;
 }

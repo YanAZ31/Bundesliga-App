@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #DA062E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .menu-toggle {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none; /* Só aparece no mobile */
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav ul li {
+    margin-left: 2rem;
+  }
+  
+  .nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  /* Estilos para telas menores */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .nav {
+      display: none;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+    }
+  
+  
+    .nav ul {
+      flex-direction: column;
+    }
+  
+    .nav ul li {
+      margin: 1rem 0;
+      text-align: center;
+    }
+  
+    .nav.active {
+      display: block;
+    }
+
+
+    .swiper {
+    height:100px;
+   
+  }
+
+   .swiper-slide{
+    gap:14px
+   
+}
+
+.statistics img{
+    max-width:300px;
+    margin:10px;
+}
+
+.nfl{
+    width: 100%;
+    height: 180px;
+    background-image: url('../img/NFL.png');
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+  
+  }
+  
+  /* Scroll suave */
+  html {
+    scroll-behavior: smooth;
+  }
